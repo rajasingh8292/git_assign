@@ -1,0 +1,42 @@
+1. What is Git
+Ans) Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
+Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with 
+features like cheap local branching, convenient staging areas, and multiple workflows.
+
+2. What do you understand by the term 'Version Control System'?
+Ans) Version control, also known as source control, is the practice of tracking and managing changes to software code Version control systems are software tools 
+that help software teams manage changes to source code over time.  As development environments have accelerated, version control systems help software teams work faster and smarter.
+
+3. What is GitHub?
+Ans) GitHub is a Git repository hosting service. GitHub also facilitates with many of its features, such as access control and collaboration. It provides a Web-based graphical interface.
+GitHub is an American company.It hosts source code of your project in the form of different programming languages and keeps track of the various changes made by programmers.
+
+4. Mention some popular Git hosting services.
+Ans) 1.Bitbucket.
+     2.GitLab.
+     3.Perforce.
+     4.Beanstalk.
+     5.Amazon AWS CodeCommit.
+     6.Codebase.
+     7.Microsoft Azure DevOps.
+     8.SourceForge.
+
+5. Different types of version control systems
+Ans) 1.Local Version Control Systems: Think of this as a VCS but without a remote repo. You manage and version all the files only within your local system.
+       There is no remote server in this scenario. All the changes are recorded in a local database.
+ 2.Centralized Version Control Systems: Here, there is a central repo shared with all the developers, and everyone gets their own working copy. Whenever you commit, 
+   the changes get reflected directly in the repo.
+ 3.Distributed Version Control Systems: In distributed systems, there is a local copy of the repo for every developer on their computers. They can make whatever changes 
+   they want and commit without affecting the remote repo.
+
+6. What benefits come with using GIT?
+Ans) One of the biggest advantages of Git is its branching capabilities. Unlike centralized version control systems, Git branches are cheap and easy to merge. 
+This facilitates the feature branch workflow popular with many Git users. Feature branches provide an isolated environment for every change to your codebase.
+
+7. What is a Git repository?
+Ans) Repositories in GIT contain a collection of files of various different versions of a Project. These files are imported from the repository into 
+the local server of the user for further updations and modifications in the content of the file.
+
+8. How can you initialize a repository in Git?
+Ans) To create a new repo, you'll use the git init command. git init is a one-time command you use during the initial setup of a new repo.
+Executing this command will create a new .git subdirectory in your current working directory. This will also create a new main branch.
